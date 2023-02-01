@@ -1,0 +1,57 @@
+body{
+	padding: 10px;
+	background-color: #ffe9fe;
+	font-size: 125%;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+dt{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 45%;
+    border: double #7f3f66 15px;
+    border-radius: 10px;
+}
+
+img:hover {
+    box-shadow: #a41b6f 10px 10px;
+}
+
+li {
+    display: inline-block;
+    margin: 5px;
+    padding-right: 20px;
+}
+
+.active {
+    color: red;
+    border: solid 5px;
+    text-transform: uppercase;
+}
+
+.skip {
+    position: absolute;
+    left: -1000px;
+}
+
+.skip:focus {
+    left: 0px;
+}
+
+
+
